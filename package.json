@@ -1,0 +1,14 @@
+{
+  "name": "writegoodapi",
+  "version": "1.0.0",
+  "description": "An API for Write-Good package",
+  "main": "index.js",
+  "author": "Imed Adel <aadelimed@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "koa": "^2.7.0",
+    "koa-body": "^4.1.0",
+    "write-good": "^1.0.1"
+  }
+}
