@@ -4,6 +4,7 @@ const _ = require("koa-route");
 const writeGood = require("write-good");
 
 const app = (module.exports = new Koa());
+const port = process.env.PORT || 3000;
 
 app.use(
   koaBody({
@@ -44,4 +45,4 @@ app.use(
   })
 );
 
-if (!module.parent) app.listen(3000);
+if (!module.parent) app.listen(port);

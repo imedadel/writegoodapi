@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "An API for Write-Good package",
   "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
   "author": "Imed Adel <aadelimed@gmail.com>",
   "license": "MIT",
   "private": true,
